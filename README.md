@@ -1,3 +1,19 @@
+# Установить miniforge 3 https://github.com/conda-forge/miniforge
+
+# Активировать base
+
+```bash
+~/miniforge3/bin/conda init bash
+source ~/.bashrc
+conda activate base
+```
+
+# Создать окружение новое "night_2"
+
+```bash
+mamba create -n night_2 python=3.10 -y
+```
+
 # 1. Update Packages
 
 ```bash
